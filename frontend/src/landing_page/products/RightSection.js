@@ -12,7 +12,10 @@ function RightSection({ imageURL, productName, productDesription, learnMore }) {
           </div>
         </div>
         <div className="col-6">
-          <img src={imageURL} />
+          <img
+            src={imageURL}
+            alt={`${productName} preview`}
+          />
         </div>
       </div>
     </div>
@@ -20,3 +23,4 @@ function RightSection({ imageURL, productName, productDesription, learnMore }) {
 }
 
 export default RightSection;
+
